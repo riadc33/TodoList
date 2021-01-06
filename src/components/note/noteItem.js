@@ -21,7 +21,7 @@ export default function noteItem({item, pressHandler, updatetodo}) {
           style={styles.checkbox}
         />
 
-        <Text style={[isSelected ? styles.testcheck : styles.test]}>
+        <Text style={[item.state ? styles.testcheck : styles.test]}>
           {item.text}
         </Text>
 
