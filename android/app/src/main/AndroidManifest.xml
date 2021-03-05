@@ -4,6 +4,10 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+<<<<<<< HEAD
+=======
+      android:usesCleartextTraffic="true"
+>>>>>>> 6b0a7525e94646ba9a4f3976ad608c6bd2db307a
       android:name=".MainApplication"
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
